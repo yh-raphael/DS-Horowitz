@@ -140,7 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ListBaseStack.c" />
-    <ClCompile Include="openlab10.c" />
+    <ClCompile Include="Biconnected_components.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ListBaseStack.h" />

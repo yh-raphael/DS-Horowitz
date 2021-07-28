@@ -18,7 +18,7 @@
     <ClCompile Include="ListBaseStack.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="openlab10.c">
+    <ClCompile Include="Biconnected_components.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

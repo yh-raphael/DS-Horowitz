@@ -74,7 +74,6 @@ int main(void)
 	{
 		nodePointer cur = NULL;
 		printf("%d: ", i);
-
 		for (cur = graph[i]; cur != NULL; cur = cur->link) {
 			printf("%d ", cur->vertex);
 		}
