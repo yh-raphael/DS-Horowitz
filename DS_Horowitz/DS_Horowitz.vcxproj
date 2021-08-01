@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="04-Maze\maze1.txt" />
+    <Text Include="04-Maze\maze2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="04-Maze\Maze_resolution.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,17 +145,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="ListBaseStack.c" />
-    <ClCompile Include="Biconnected_components.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ListBaseStack.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="input1.txt" />
-    <Text Include="input2.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

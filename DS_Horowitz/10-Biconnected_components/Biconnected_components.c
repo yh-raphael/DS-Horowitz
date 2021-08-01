@@ -1,6 +1,6 @@
 /* Created on Tuesday, July 27, 2021.
 Completed on Wednesday, July 28, 2021.
-Copyright (c) Yonghyeon Cho, Sogang Univ, Seoul, Korea.
+Copyright (c) Yonghyeon Cho, Sogang University, Seoul, Korea.
 Biconnected Components.
 Fundamentals of Data Structures in C, Horowitz et al.
 */
@@ -35,8 +35,8 @@ void bicon(int, int);
 int main(void)
 {
 	// storing the given graph //
-//	FILE* fp = fopen("input1.txt", "rt");
-	FILE* fp = fopen("input2.txt", "rt");
+//	FILE* fp = fopen("10-Biconnected_components/input1.txt", "rt");
+	FILE* fp = fopen("10-Biconnected_components/input2.txt", "rt");
 	fscanf(fp, "%d", &n);					//printf("input num: %d\n", n);
 	graph = (nodePointer*)malloc(n * sizeof(nodePointer));	//printf("%d\n", sizeof(adjLists));
 	for (int i = 0; i < n; i++)

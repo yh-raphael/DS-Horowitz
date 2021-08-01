@@ -15,24 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ListBaseStack.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Biconnected_components.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ListBaseStack.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="input1.txt">
+    <Text Include="04-Maze\maze1.txt">
       <Filter>리소스 파일</Filter>
     </Text>
-    <Text Include="input2.txt">
+    <Text Include="04-Maze\maze2.txt">
       <Filter>리소스 파일</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="04-Maze\Maze_resolution.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
